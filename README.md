@@ -1,8 +1,8 @@
 # Inventiro App
 
-### running instruction 
+### Project Starting Instruction 
 
-Step 1: Clone the repo <br>
+Step 1: Clone the repo and checkout develop branch <br>
 Step 2: Start docker desktop app <br>
 Step 3: cd to the project folder <br>
 Step 4: Copy _.env.example_ to _.env_ <br>
