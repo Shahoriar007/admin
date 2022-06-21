@@ -1,12 +1,12 @@
-### Inventiro App
+# Inventiro App
 
-# running instruction 
+### running instruction 
 
-Step 1: Clone the repo
-Step 2: Start docker desktop app
-Step 3: cd to the project folder 
-Step 4: Copy _.env.example_ to _.env_
-Step 5: Install composer dependency and packages
+Step 1: Clone the repo <br>
+Step 2: Start docker desktop app <br>
+Step 3: cd to the project folder <br>
+Step 4: Copy _.env.example_ to _.env_ <br>
+Step 5: Install composer dependency and packages 
 ```shell
     composer install
 ```
@@ -29,5 +29,6 @@ Step 8: Run database seeder
 ```
 
 Application will be start on http://127.0.0.1:8005 and phpmyadmin will start on http://127.0.0.1:8080.
-Use _root_ and _password_ for phpmyadmin login credentials.
-__you can change app port and phpmyadmin port from .env APP_PORT and PHPMYADMIN_PORT__
+Use *_root_* and *_password_* for phpmyadmin login credentials. <br>
+
+_you can change app port and phpmyadmin port from .env *APP_PORT* and *PHPMYADMIN_PORT*_
