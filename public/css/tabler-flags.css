@@ -1,0 +1,1066 @@
+.flag {
+  position: relative;
+  display: inline-block;
+  width: 1.33333em;
+  height: 1em;
+  vertical-align: -3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid var(--tblr-border-color);
+  border-radius: 3px;
+}
+
+.flag-country-ad {
+  background-image: url("/assets/img/flags/ad.svg");
+}
+
+.flag-country-ae {
+  background-image: url("/assets/img/flags/ae.svg");
+}
+
+.flag-country-af {
+  background-image: url("/assets/img/flags/af.svg");
+}
+
+.flag-country-ag {
+  background-image: url("/assets/img/flags/ag.svg");
+}
+
+.flag-country-ai {
+  background-image: url("/assets/img/flags/ai.svg");
+}
+
+.flag-country-al {
+  background-image: url("/assets/img/flags/al.svg");
+}
+
+.flag-country-am {
+  background-image: url("/assets/img/flags/am.svg");
+}
+
+.flag-country-ao {
+  background-image: url("/assets/img/flags/ao.svg");
+}
+
+.flag-country-aq {
+  background-image: url("/assets/img/flags/aq.svg");
+}
+
+.flag-country-ar {
+  background-image: url("/assets/img/flags/ar.svg");
+}
+
+.flag-country-as {
+  background-image: url("/assets/img/flags/as.svg");
+}
+
+.flag-country-at {
+  background-image: url("/assets/img/flags/at.svg");
+}
+
+.flag-country-au {
+  background-image: url("/assets/img/flags/au.svg");
+}
+
+.flag-country-aw {
+  background-image: url("/assets/img/flags/aw.svg");
+}
+
+.flag-country-ax {
+  background-image: url("/assets/img/flags/ax.svg");
+}
+
+.flag-country-az {
+  background-image: url("/assets/img/flags/az.svg");
+}
+
+.flag-country-ba {
+  background-image: url("/assets/img/flags/ba.svg");
+}
+
+.flag-country-bb {
+  background-image: url("/assets/img/flags/bb.svg");
+}
+
+.flag-country-bd {
+  background-image: url("/assets/img/flags/bd.svg");
+}
+
+.flag-country-be {
+  background-image: url("/assets/img/flags/be.svg");
+}
+
+.flag-country-bf {
+  background-image: url("/assets/img/flags/bf.svg");
+}
+
+.flag-country-bg {
+  background-image: url("/assets/img/flags/bg.svg");
+}
+
+.flag-country-bh {
+  background-image: url("/assets/img/flags/bh.svg");
+}
+
+.flag-country-bi {
+  background-image: url("/assets/img/flags/bi.svg");
+}
+
+.flag-country-bj {
+  background-image: url("/assets/img/flags/bj.svg");
+}
+
+.flag-country-bl {
+  background-image: url("/assets/img/flags/bl.svg");
+}
+
+.flag-country-bm {
+  background-image: url("/assets/img/flags/bm.svg");
+}
+
+.flag-country-bn {
+  background-image: url("/assets/img/flags/bn.svg");
+}
+
+.flag-country-bo {
+  background-image: url("/assets/img/flags/bo.svg");
+}
+
+.flag-country-bq {
+  background-image: url("/assets/img/flags/bq.svg");
+}
+
+.flag-country-br {
+  background-image: url("/assets/img/flags/br.svg");
+}
+
+.flag-country-bs {
+  background-image: url("/assets/img/flags/bs.svg");
+}
+
+.flag-country-bt {
+  background-image: url("/assets/img/flags/bt.svg");
+}
+
+.flag-country-bv {
+  background-image: url("/assets/img/flags/bv.svg");
+}
+
+.flag-country-bw {
+  background-image: url("/assets/img/flags/bw.svg");
+}
+
+.flag-country-by {
+  background-image: url("/assets/img/flags/by.svg");
+}
+
+.flag-country-bz {
+  background-image: url("/assets/img/flags/bz.svg");
+}
+
+.flag-country-ca {
+  background-image: url("/assets/img/flags/ca.svg");
+}
+
+.flag-country-cc {
+  background-image: url("/assets/img/flags/cc.svg");
+}
+
+.flag-country-cd {
+  background-image: url("/assets/img/flags/cd.svg");
+}
+
+.flag-country-cf {
+  background-image: url("/assets/img/flags/cf.svg");
+}
+
+.flag-country-cg {
+  background-image: url("/assets/img/flags/cg.svg");
+}
+
+.flag-country-ch {
+  background-image: url("/assets/img/flags/ch.svg");
+}
+
+.flag-country-ci {
+  background-image: url("/assets/img/flags/ci.svg");
+}
+
+.flag-country-ck {
+  background-image: url("/assets/img/flags/ck.svg");
+}
+
+.flag-country-cl {
+  background-image: url("/assets/img/flags/cl.svg");
+}
+
+.flag-country-cm {
+  background-image: url("/assets/img/flags/cm.svg");
+}
+
+.flag-country-cn {
+  background-image: url("/assets/img/flags/cn.svg");
+}
+
+.flag-country-co {
+  background-image: url("/assets/img/flags/co.svg");
+}
+
+.flag-country-cr {
+  background-image: url("/assets/img/flags/cr.svg");
+}
+
+.flag-country-cu {
+  background-image: url("/assets/img/flags/cu.svg");
+}
+
+.flag-country-cv {
+  background-image: url("/assets/img/flags/cv.svg");
+}
+
+.flag-country-cw {
+  background-image: url("/assets/img/flags/cw.svg");
+}
+
+.flag-country-cx {
+  background-image: url("/assets/img/flags/cx.svg");
+}
+
+.flag-country-cy {
+  background-image: url("/assets/img/flags/cy.svg");
+}
+
+.flag-country-cz {
+  background-image: url("/assets/img/flags/cz.svg");
+}
+
+.flag-country-de {
+  background-image: url("/assets/img/flags/de.svg");
+}
+
+.flag-country-dj {
+  background-image: url("/assets/img/flags/dj.svg");
+}
+
+.flag-country-dk {
+  background-image: url("/assets/img/flags/dk.svg");
+}
+
+.flag-country-dm {
+  background-image: url("/assets/img/flags/dm.svg");
+}
+
+.flag-country-do {
+  background-image: url("/assets/img/flags/do.svg");
+}
+
+.flag-country-dz {
+  background-image: url("/assets/img/flags/dz.svg");
+}
+
+.flag-country-ec {
+  background-image: url("/assets/img/flags/ec.svg");
+}
+
+.flag-country-ee {
+  background-image: url("/assets/img/flags/ee.svg");
+}
+
+.flag-country-eg {
+  background-image: url("/assets/img/flags/eg.svg");
+}
+
+.flag-country-eh {
+  background-image: url("/assets/img/flags/eh.svg");
+}
+
+.flag-country-er {
+  background-image: url("/assets/img/flags/er.svg");
+}
+
+.flag-country-es {
+  background-image: url("/assets/img/flags/es.svg");
+}
+
+.flag-country-et {
+  background-image: url("/assets/img/flags/et.svg");
+}
+
+.flag-country-fi {
+  background-image: url("/assets/img/flags/fi.svg");
+}
+
+.flag-country-fj {
+  background-image: url("/assets/img/flags/fj.svg");
+}
+
+.flag-country-fk {
+  background-image: url("/assets/img/flags/fk.svg");
+}
+
+.flag-country-fm {
+  background-image: url("/assets/img/flags/fm.svg");
+}
+
+.flag-country-fo {
+  background-image: url("/assets/img/flags/fo.svg");
+}
+
+.flag-country-fr {
+  background-image: url("/assets/img/flags/fr.svg");
+}
+
+.flag-country-ga {
+  background-image: url("/assets/img/flags/ga.svg");
+}
+
+.flag-country-gb {
+  background-image: url("/assets/img/flags/gb.svg");
+}
+
+.flag-country-gd {
+  background-image: url("/assets/img/flags/gd.svg");
+}
+
+.flag-country-ge {
+  background-image: url("/assets/img/flags/ge.svg");
+}
+
+.flag-country-gf {
+  background-image: url("/assets/img/flags/gf.svg");
+}
+
+.flag-country-gg {
+  background-image: url("/assets/img/flags/gg.svg");
+}
+
+.flag-country-gh {
+  background-image: url("/assets/img/flags/gh.svg");
+}
+
+.flag-country-gi {
+  background-image: url("/assets/img/flags/gi.svg");
+}
+
+.flag-country-gl {
+  background-image: url("/assets/img/flags/gl.svg");
+}
+
+.flag-country-gm {
+  background-image: url("/assets/img/flags/gm.svg");
+}
+
+.flag-country-gn {
+  background-image: url("/assets/img/flags/gn.svg");
+}
+
+.flag-country-gp {
+  background-image: url("/assets/img/flags/gp.svg");
+}
+
+.flag-country-gq {
+  background-image: url("/assets/img/flags/gq.svg");
+}
+
+.flag-country-gr {
+  background-image: url("/assets/img/flags/gr.svg");
+}
+
+.flag-country-gs {
+  background-image: url("/assets/img/flags/gs.svg");
+}
+
+.flag-country-gt {
+  background-image: url("/assets/img/flags/gt.svg");
+}
+
+.flag-country-gu {
+  background-image: url("/assets/img/flags/gu.svg");
+}
+
+.flag-country-gw {
+  background-image: url("/assets/img/flags/gw.svg");
+}
+
+.flag-country-gy {
+  background-image: url("/assets/img/flags/gy.svg");
+}
+
+.flag-country-hk {
+  background-image: url("/assets/img/flags/hk.svg");
+}
+
+.flag-country-hm {
+  background-image: url("/assets/img/flags/hm.svg");
+}
+
+.flag-country-hn {
+  background-image: url("/assets/img/flags/hn.svg");
+}
+
+.flag-country-hr {
+  background-image: url("/assets/img/flags/hr.svg");
+}
+
+.flag-country-ht {
+  background-image: url("/assets/img/flags/ht.svg");
+}
+
+.flag-country-hu {
+  background-image: url("/assets/img/flags/hu.svg");
+}
+
+.flag-country-id {
+  background-image: url("/assets/img/flags/id.svg");
+}
+
+.flag-country-ie {
+  background-image: url("/assets/img/flags/ie.svg");
+}
+
+.flag-country-il {
+  background-image: url("/assets/img/flags/il.svg");
+}
+
+.flag-country-im {
+  background-image: url("/assets/img/flags/im.svg");
+}
+
+.flag-country-in {
+  background-image: url("/assets/img/flags/in.svg");
+}
+
+.flag-country-io {
+  background-image: url("/assets/img/flags/io.svg");
+}
+
+.flag-country-iq {
+  background-image: url("/assets/img/flags/iq.svg");
+}
+
+.flag-country-ir {
+  background-image: url("/assets/img/flags/ir.svg");
+}
+
+.flag-country-is {
+  background-image: url("/assets/img/flags/is.svg");
+}
+
+.flag-country-it {
+  background-image: url("/assets/img/flags/it.svg");
+}
+
+.flag-country-je {
+  background-image: url("/assets/img/flags/je.svg");
+}
+
+.flag-country-jm {
+  background-image: url("/assets/img/flags/jm.svg");
+}
+
+.flag-country-jo {
+  background-image: url("/assets/img/flags/jo.svg");
+}
+
+.flag-country-jp {
+  background-image: url("/assets/img/flags/jp.svg");
+}
+
+.flag-country-ke {
+  background-image: url("/assets/img/flags/ke.svg");
+}
+
+.flag-country-kg {
+  background-image: url("/assets/img/flags/kg.svg");
+}
+
+.flag-country-kh {
+  background-image: url("/assets/img/flags/kh.svg");
+}
+
+.flag-country-ki {
+  background-image: url("/assets/img/flags/ki.svg");
+}
+
+.flag-country-km {
+  background-image: url("/assets/img/flags/km.svg");
+}
+
+.flag-country-kn {
+  background-image: url("/assets/img/flags/kn.svg");
+}
+
+.flag-country-kp {
+  background-image: url("/assets/img/flags/kp.svg");
+}
+
+.flag-country-kr {
+  background-image: url("/assets/img/flags/kr.svg");
+}
+
+.flag-country-kw {
+  background-image: url("/assets/img/flags/kw.svg");
+}
+
+.flag-country-ky {
+  background-image: url("/assets/img/flags/ky.svg");
+}
+
+.flag-country-kz {
+  background-image: url("/assets/img/flags/kz.svg");
+}
+
+.flag-country-la {
+  background-image: url("/assets/img/flags/la.svg");
+}
+
+.flag-country-lb {
+  background-image: url("/assets/img/flags/lb.svg");
+}
+
+.flag-country-lc {
+  background-image: url("/assets/img/flags/lc.svg");
+}
+
+.flag-country-li {
+  background-image: url("/assets/img/flags/li.svg");
+}
+
+.flag-country-lk {
+  background-image: url("/assets/img/flags/lk.svg");
+}
+
+.flag-country-lr {
+  background-image: url("/assets/img/flags/lr.svg");
+}
+
+.flag-country-ls {
+  background-image: url("/assets/img/flags/ls.svg");
+}
+
+.flag-country-lt {
+  background-image: url("/assets/img/flags/lt.svg");
+}
+
+.flag-country-lu {
+  background-image: url("/assets/img/flags/lu.svg");
+}
+
+.flag-country-lv {
+  background-image: url("/assets/img/flags/lv.svg");
+}
+
+.flag-country-ly {
+  background-image: url("/assets/img/flags/ly.svg");
+}
+
+.flag-country-ma {
+  background-image: url("/assets/img/flags/ma.svg");
+}
+
+.flag-country-mc {
+  background-image: url("/assets/img/flags/mc.svg");
+}
+
+.flag-country-md {
+  background-image: url("/assets/img/flags/md.svg");
+}
+
+.flag-country-me {
+  background-image: url("/assets/img/flags/me.svg");
+}
+
+.flag-country-mf {
+  background-image: url("/assets/img/flags/mf.svg");
+}
+
+.flag-country-mg {
+  background-image: url("/assets/img/flags/mg.svg");
+}
+
+.flag-country-mh {
+  background-image: url("/assets/img/flags/mh.svg");
+}
+
+.flag-country-mk {
+  background-image: url("/assets/img/flags/mk.svg");
+}
+
+.flag-country-ml {
+  background-image: url("/assets/img/flags/ml.svg");
+}
+
+.flag-country-mm {
+  background-image: url("/assets/img/flags/mm.svg");
+}
+
+.flag-country-mn {
+  background-image: url("/assets/img/flags/mn.svg");
+}
+
+.flag-country-mo {
+  background-image: url("/assets/img/flags/mo.svg");
+}
+
+.flag-country-mp {
+  background-image: url("/assets/img/flags/mp.svg");
+}
+
+.flag-country-mq {
+  background-image: url("/assets/img/flags/mq.svg");
+}
+
+.flag-country-mr {
+  background-image: url("/assets/img/flags/mr.svg");
+}
+
+.flag-country-ms {
+  background-image: url("/assets/img/flags/ms.svg");
+}
+
+.flag-country-mt {
+  background-image: url("/assets/img/flags/mt.svg");
+}
+
+.flag-country-mu {
+  background-image: url("/assets/img/flags/mu.svg");
+}
+
+.flag-country-mv {
+  background-image: url("/assets/img/flags/mv.svg");
+}
+
+.flag-country-mw {
+  background-image: url("/assets/img/flags/mw.svg");
+}
+
+.flag-country-mx {
+  background-image: url("/assets/img/flags/mx.svg");
+}
+
+.flag-country-my {
+  background-image: url("/assets/img/flags/my.svg");
+}
+
+.flag-country-mz {
+  background-image: url("/assets/img/flags/mz.svg");
+}
+
+.flag-country-na {
+  background-image: url("/assets/img/flags/na.svg");
+}
+
+.flag-country-nc {
+  background-image: url("/assets/img/flags/nc.svg");
+}
+
+.flag-country-ne {
+  background-image: url("/assets/img/flags/ne.svg");
+}
+
+.flag-country-nf {
+  background-image: url("/assets/img/flags/nf.svg");
+}
+
+.flag-country-ng {
+  background-image: url("/assets/img/flags/ng.svg");
+}
+
+.flag-country-ni {
+  background-image: url("/assets/img/flags/ni.svg");
+}
+
+.flag-country-nl {
+  background-image: url("/assets/img/flags/nl.svg");
+}
+
+.flag-country-no {
+  background-image: url("/assets/img/flags/no.svg");
+}
+
+.flag-country-np {
+  background-image: url("/assets/img/flags/np.svg");
+}
+
+.flag-country-nr {
+  background-image: url("/assets/img/flags/nr.svg");
+}
+
+.flag-country-nu {
+  background-image: url("/assets/img/flags/nu.svg");
+}
+
+.flag-country-nz {
+  background-image: url("/assets/img/flags/nz.svg");
+}
+
+.flag-country-om {
+  background-image: url("/assets/img/flags/om.svg");
+}
+
+.flag-country-pa {
+  background-image: url("/assets/img/flags/pa.svg");
+}
+
+.flag-country-pe {
+  background-image: url("/assets/img/flags/pe.svg");
+}
+
+.flag-country-pf {
+  background-image: url("/assets/img/flags/pf.svg");
+}
+
+.flag-country-pg {
+  background-image: url("/assets/img/flags/pg.svg");
+}
+
+.flag-country-ph {
+  background-image: url("/assets/img/flags/ph.svg");
+}
+
+.flag-country-pk {
+  background-image: url("/assets/img/flags/pk.svg");
+}
+
+.flag-country-pl {
+  background-image: url("/assets/img/flags/pl.svg");
+}
+
+.flag-country-pm {
+  background-image: url("/assets/img/flags/pm.svg");
+}
+
+.flag-country-pn {
+  background-image: url("/assets/img/flags/pn.svg");
+}
+
+.flag-country-pr {
+  background-image: url("/assets/img/flags/pr.svg");
+}
+
+.flag-country-ps {
+  background-image: url("/assets/img/flags/ps.svg");
+}
+
+.flag-country-pt {
+  background-image: url("/assets/img/flags/pt.svg");
+}
+
+.flag-country-pw {
+  background-image: url("/assets/img/flags/pw.svg");
+}
+
+.flag-country-py {
+  background-image: url("/assets/img/flags/py.svg");
+}
+
+.flag-country-qa {
+  background-image: url("/assets/img/flags/qa.svg");
+}
+
+.flag-country-re {
+  background-image: url("/assets/img/flags/re.svg");
+}
+
+.flag-country-ro {
+  background-image: url("/assets/img/flags/ro.svg");
+}
+
+.flag-country-rs {
+  background-image: url("/assets/img/flags/rs.svg");
+}
+
+.flag-country-ru {
+  background-image: url("/assets/img/flags/ru.svg");
+}
+
+.flag-country-rw {
+  background-image: url("/assets/img/flags/rw.svg");
+}
+
+.flag-country-sa {
+  background-image: url("/assets/img/flags/sa.svg");
+}
+
+.flag-country-sb {
+  background-image: url("/assets/img/flags/sb.svg");
+}
+
+.flag-country-sc {
+  background-image: url("/assets/img/flags/sc.svg");
+}
+
+.flag-country-sd {
+  background-image: url("/assets/img/flags/sd.svg");
+}
+
+.flag-country-se {
+  background-image: url("/assets/img/flags/se.svg");
+}
+
+.flag-country-sg {
+  background-image: url("/assets/img/flags/sg.svg");
+}
+
+.flag-country-sh {
+  background-image: url("/assets/img/flags/sh.svg");
+}
+
+.flag-country-si {
+  background-image: url("/assets/img/flags/si.svg");
+}
+
+.flag-country-sj {
+  background-image: url("/assets/img/flags/sj.svg");
+}
+
+.flag-country-sk {
+  background-image: url("/assets/img/flags/sk.svg");
+}
+
+.flag-country-sl {
+  background-image: url("/assets/img/flags/sl.svg");
+}
+
+.flag-country-sm {
+  background-image: url("/assets/img/flags/sm.svg");
+}
+
+.flag-country-sn {
+  background-image: url("/assets/img/flags/sn.svg");
+}
+
+.flag-country-so {
+  background-image: url("/assets/img/flags/so.svg");
+}
+
+.flag-country-sr {
+  background-image: url("/assets/img/flags/sr.svg");
+}
+
+.flag-country-ss {
+  background-image: url("/assets/img/flags/ss.svg");
+}
+
+.flag-country-st {
+  background-image: url("/assets/img/flags/st.svg");
+}
+
+.flag-country-sv {
+  background-image: url("/assets/img/flags/sv.svg");
+}
+
+.flag-country-sx {
+  background-image: url("/assets/img/flags/sx.svg");
+}
+
+.flag-country-sy {
+  background-image: url("/assets/img/flags/sy.svg");
+}
+
+.flag-country-sz {
+  background-image: url("/assets/img/flags/sz.svg");
+}
+
+.flag-country-tc {
+  background-image: url("/assets/img/flags/tc.svg");
+}
+
+.flag-country-td {
+  background-image: url("/assets/img/flags/td.svg");
+}
+
+.flag-country-tf {
+  background-image: url("/assets/img/flags/tf.svg");
+}
+
+.flag-country-tg {
+  background-image: url("/assets/img/flags/tg.svg");
+}
+
+.flag-country-th {
+  background-image: url("/assets/img/flags/th.svg");
+}
+
+.flag-country-tj {
+  background-image: url("/assets/img/flags/tj.svg");
+}
+
+.flag-country-tk {
+  background-image: url("/assets/img/flags/tk.svg");
+}
+
+.flag-country-tl {
+  background-image: url("/assets/img/flags/tl.svg");
+}
+
+.flag-country-tm {
+  background-image: url("/assets/img/flags/tm.svg");
+}
+
+.flag-country-tn {
+  background-image: url("/assets/img/flags/tn.svg");
+}
+
+.flag-country-to {
+  background-image: url("/assets/img/flags/to.svg");
+}
+
+.flag-country-tr {
+  background-image: url("/assets/img/flags/tr.svg");
+}
+
+.flag-country-tt {
+  background-image: url("/assets/img/flags/tt.svg");
+}
+
+.flag-country-tv {
+  background-image: url("/assets/img/flags/tv.svg");
+}
+
+.flag-country-tw {
+  background-image: url("/assets/img/flags/tw.svg");
+}
+
+.flag-country-tz {
+  background-image: url("/assets/img/flags/tz.svg");
+}
+
+.flag-country-ua {
+  background-image: url("/assets/img/flags/ua.svg");
+}
+
+.flag-country-ug {
+  background-image: url("/assets/img/flags/ug.svg");
+}
+
+.flag-country-um {
+  background-image: url("/assets/img/flags/um.svg");
+}
+
+.flag-country-us {
+  background-image: url("/assets/img/flags/us.svg");
+}
+
+.flag-country-uy {
+  background-image: url("/assets/img/flags/uy.svg");
+}
+
+.flag-country-uz {
+  background-image: url("/assets/img/flags/uz.svg");
+}
+
+.flag-country-va {
+  background-image: url("/assets/img/flags/va.svg");
+}
+
+.flag-country-vc {
+  background-image: url("/assets/img/flags/vc.svg");
+}
+
+.flag-country-ve {
+  background-image: url("/assets/img/flags/ve.svg");
+}
+
+.flag-country-vg {
+  background-image: url("/assets/img/flags/vg.svg");
+}
+
+.flag-country-vi {
+  background-image: url("/assets/img/flags/vi.svg");
+}
+
+.flag-country-vn {
+  background-image: url("/assets/img/flags/vn.svg");
+}
+
+.flag-country-vu {
+  background-image: url("/assets/img/flags/vu.svg");
+}
+
+.flag-country-wf {
+  background-image: url("/assets/img/flags/wf.svg");
+}
+
+.flag-country-ws {
+  background-image: url("/assets/img/flags/ws.svg");
+}
+
+.flag-country-ye {
+  background-image: url("/assets/img/flags/ye.svg");
+}
+
+.flag-country-yt {
+  background-image: url("/assets/img/flags/yt.svg");
+}
+
+.flag-country-za {
+  background-image: url("/assets/img/flags/za.svg");
+}
+
+.flag-country-zm {
+  background-image: url("/assets/img/flags/zm.svg");
+}
+
+.flag-country-zw {
+  background-image: url("/assets/img/flags/zw.svg");
+}
+
+.flag-country-es-ct {
+  background-image: url("/assets/img/flags/es-ct.svg");
+}
+
+.flag-country-eu {
+  background-image: url("/assets/img/flags/eu.svg");
+}
+
+.flag-country-gb-eng {
+  background-image: url("/assets/img/flags/gb-eng.svg");
+}
+
+.flag-country-gb-nir {
+  background-image: url("/assets/img/flags/gb-nir.svg");
+}
+
+.flag-country-gb-sct {
+  background-image: url("/assets/img/flags/gb-sct.svg");
+}
+
+.flag-country-gb-wls {
+  background-image: url("/assets/img/flags/gb-wls.svg");
+}
+
+.flag-country-un {
+  background-image: url("/assets/img/flags/un.svg");
+}
+
+.flag-xs {
+  width: 1.5rem;
+  height: 1.125rem;
+}
+
+.flag-sm {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.flag-md {
+  width: 3.75rem;
+  height: 2.8125rem;
+}
+
+.flag-lg {
+  width: 5rem;
+  height: 3.75rem;
+}
+
+.flag-xl {
+  width: 7rem;
+  height: 5.25rem;
+}
+
+.flag-2xl {
+  width: 11rem;
+  height: 8.25rem;
+}

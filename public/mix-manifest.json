@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/tabler.js": "/js/tabler.js",
+    "/js/tabler.esm.js": "/js/tabler.esm.js",
+    "/js/demo.js": "/js/demo.js",
+    "/css/demo.css": "/css/demo.css",
+    "/css/tabler-flags.css": "/css/tabler-flags.css",
+    "/css/tabler-payments.css": "/css/tabler-payments.css",
+    "/css/tabler-vendors.css": "/css/tabler-vendors.css",
+    "/css/tabler.css": "/css/tabler.css",
+    "/css/app.css": "/css/app.css"
+}

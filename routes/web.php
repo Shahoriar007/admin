@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.dashboard.index');
+});
+
+Route::get('/tabler', function () {
+    return view('tabler');
 });

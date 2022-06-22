@@ -12,6 +12,12 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+    .js('resources/js/tabler.js', 'public/js')
+    .js('resources/js/tabler.esm.js', 'public/js')
+    .js('resources/js/demo.js', 'public/js')
+    .postCss('resources/css/app.css', 'public/css', [])
+    .sass('resources/scss/tabler.scss', 'public/css')
+    .sass('resources/scss/tabler-vendors.scss', 'public/css')
+    .sass('resources/scss/tabler-payments.scss', 'public/css')
+    .sass('resources/scss/tabler-flags.scss', 'public/css')
+    .sass('resources/scss/demo.scss', 'public/css')

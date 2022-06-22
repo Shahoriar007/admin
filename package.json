@@ -13,6 +13,31 @@
         "axios": "^0.25",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.52.3",
+        "sass-loader": "^12.6.0"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.5",
+        "@tabler/icons": "^1.70.0",
+        "bootstrap": "5.2.0-beta1"
+    },
+    "peerDependencies": {
+        "apexcharts": "^3.35.2",
+        "autosize": "^5.0.1",
+        "choices.js": "^10.1.0",
+        "countup.js": "^2.1.0",
+        "dropzone": "^6.0.0-beta.2",
+        "flatpickr": "^4.6.13",
+        "fslightbox": "^3.3.1",
+        "imask": "^6.4.2",
+        "jsvectormap": "^1.4.5",
+        "list.js": "^2.3.1",
+        "litepicker": "^2.0.12",
+        "nouislider": "^15.6.0",
+        "plyr": "^3.7.2",
+        "tinymce": "^6.0.3",
+        "tom-select": "^2.0.1"
     }
 }
