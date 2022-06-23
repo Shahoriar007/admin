@@ -3,9 +3,14 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <h1 id="ct" class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+      <h1  class="navbar-brand d-flex flex-column align-items-start navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
         
-          
+        <span id="ct_date" class="page-pretitle d-block">
+            
+        </span>
+          <span id="ct_time" class="page-title d-block">
+            
+          </span>
         
       </h1>
       <div class="navbar-nav flex-row order-md-last">
