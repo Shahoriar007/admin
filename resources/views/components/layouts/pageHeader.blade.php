@@ -1,16 +1,16 @@
-<div class="sticky-top bg-white pb-3 border-bottom">
+
     <div class="container-xl">
     <!-- Page title -->
     
       <div class="page-header d-print-none ">
         <div class="row g-2 align-items-center">
-          <div class="col">
+          <div class="col-6">
             <!-- Page pre-title -->
             <div class="page-pretitle">
-              Overview
+              {{ $pretitle ?? '' }}
             </div>
             <h2 class="page-title">
-              Fluid vertical layout
+              {{ $pageTitle ?? '' }}
             </h2>
           </div>
           <!-- Page title actions -->
@@ -35,5 +35,3 @@
         </div>
       </div>
     </div>
-    
-  </div>

@@ -19,11 +19,24 @@
   </head>
   <body class="layout-fluid">
     <div class="page">
-      <x-layouts.sidebar></x-layouts.sidebar>
+      <x-layouts.sidebar>
+        
+
+      </x-layouts.sidebar>
+
+      <x-layouts.header></x-layouts.header>
 
       <div class="page-wrapper">
         
-        <x-layouts.navbar></x-layouts.navbar>
+        <x-layouts.pageHeader>
+            <x-slot:pretitle>
+            {{ $pretitle }}
+            </x-slot:pretitle>
+
+            <x-slot:pageTitle>
+                {{ $pageTitle }}
+            </x-slot:pageTitle>
+        </x-layouts.pageHeader>
 
         {{ $slot }}
         

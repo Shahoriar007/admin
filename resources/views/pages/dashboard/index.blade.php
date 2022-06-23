@@ -3,6 +3,14 @@
         Dashboard | Inventiro
     </x-slot:title>
 
+    <x-slot:pretitle>
+        OVERVIEW
+    </x-slot:pretitle>
+
+    <x-slot:pageTitle>
+        DASHBOARD
+    </x-slot:pageTitle>
+
     
     <div class="page-body">
         <div class="container-xl">
