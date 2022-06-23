@@ -17,7 +17,7 @@
     <x-partials.styles></x-partials.styles>
 
   </head>
-  <body class="layout-fluid">
+  <body class="layout-fluid" onload=display_ct();>
     <div class="page">
       <x-layouts.sidebar>
         
