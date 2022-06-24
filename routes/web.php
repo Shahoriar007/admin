@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/tabler', function () {
     return view('tabler');
 });
+
+Route::get('/tfa', function () {
+    return view('pages.auth.enableTFA');
+});

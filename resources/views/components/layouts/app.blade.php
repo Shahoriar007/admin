@@ -13,21 +13,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>{{ $title ?? 'Inventiro' }}</title>
-    
+
     <x-partials.styles></x-partials.styles>
 
   </head>
   <body class="layout-fluid" onload=display_ct();>
     <div class="page">
       <x-layouts.sidebar>
-        
+
 
       </x-layouts.sidebar>
 
       <x-layouts.header></x-layouts.header>
 
       <div class="page-wrapper">
-        
+
         <x-layouts.pageHeader>
             <x-slot:pretitle>
             {{ $pretitle }}
@@ -39,13 +39,13 @@
         </x-layouts.pageHeader>
 
         {{ $slot }}
-        
+
         <x-layouts.footer></x-layouts.footer>
 
       </div>
     </div>
-    
-    {{ $modals }}
+
+    {{ $modals ?? "" }}
 
     <x-partials.scripts>
 
