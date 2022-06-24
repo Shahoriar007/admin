@@ -10,12 +10,51 @@
         <h2 class="card-title text-center mb-4">Create new account</h2>
         <div class="mb-3">
           <label class="form-label">Name</label>
-          <input type="text" class="form-control" name="name" placeholder="Enter name">
+          <input type="text" class="form-control" name="name" placeholder="Enter name" value="{{ old('name') }}">
+
+          @foreach ($errors->get('name') as $message) 
+            <div class="invalid-feedback d-block mb-1">
+                {{ $message }}
+            </div>
+          @endforeach
+
         </div>
         <div class="mb-3">
           <label class="form-label">Email address</label>
-          <input type="email" class="form-control" name="email" placeholder="Enter email">
+          <input type="email" class="form-control" name="email" placeholder="Enter email" value={{ old('email') }}>
+
+          @foreach ($errors->get('email') as $message) 
+            <div class="invalid-feedback d-block mb-1">
+                {{ $message }}
+            </div>
+          @endforeach
+
         </div>
+
+        <div class="mb-3">
+            <label class="form-label">Phone number</label>
+            <input type="tel" class="form-control" name="phone" placeholder="Enter phone" value={{ old('phone') }}>
+
+            @foreach ($errors->get('phone') as $message) 
+                <div class="invalid-feedback d-block mb-1">
+                    {{ $message }}
+                </div>
+            @endforeach
+
+
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Shop name</label>
+            <input type="text" class="form-control" name="shop_name" placeholder="Enter shop name" value={{ old('shop_name') }}>
+
+            @foreach ($errors->get('shop_name') as $message) 
+                <div class="invalid-feedback d-block mb-1">
+                    {{ $message }}
+                </div>
+            @endforeach
+        </div>
+
         <div class="mb-3">
           <label class="form-label">Password</label>
           <div class="input-group input-group-flat">
@@ -26,6 +65,12 @@
               </a>
             </span>
           </div>
+
+            @foreach ($errors->get('password') as $message) 
+                <div class="invalid-feedback d-block mb-1">
+                    {{ $message }}
+                </div>
+            @endforeach
         </div>
 
         <div class="mb-3">
@@ -38,6 +83,13 @@
                 </a>
               </span>
             </div>
+
+            @foreach ($errors->get('password_confirmation') as $message) 
+                <div class="invalid-feedback d-block mb-1">
+                    {{ $message }}
+                </div>
+            @endforeach
+
           </div>
 
         <div class="mb-3">

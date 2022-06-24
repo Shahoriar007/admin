@@ -2,6 +2,7 @@
 
 namespace App\Actions\Fortify;
 
+use App\Models\Shop;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -22,6 +23,8 @@ class CreateNewUser implements CreatesNewUsers
     {
         Validator::make($input, [
             'name' => ['required', 'string', 'max:255'],
+            'phone' => ['required', 'string'],
+            'shop_name' => ['required', 'string', 'max:255'],
             'email' => [
                 'required',
                 'string',
@@ -32,10 +35,20 @@ class CreateNewUser implements CreatesNewUsers
             'password' => $this->passwordRules(),
         ])->validate();
 
-        return User::create([
+
+        $user = User::create([
             'name' => $input['name'],
+            'phone' => $input['phone'],
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
         ]);
+
+        // Initiate shop table with shop name
+        Shop::create([
+            'user_id' => $user->id,
+            'name' => $input['shop_name']
+        ]);
+
+        return $user;
     }
 }
