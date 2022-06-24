@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.dashboard.index');
-});
+})->middleware('auth');
 
 Route::get('/tabler', function () {
     return view('tabler');
