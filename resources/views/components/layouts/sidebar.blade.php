@@ -148,6 +148,8 @@
               </span>
             </a>
           </li>
+
+          @can('read-payment')
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button" aria-expanded="false" >
               <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/package -->
@@ -294,6 +296,8 @@
               </div>
             </div>
           </li>
+          @endcan
+
           <li class="nav-item">
             <a class="nav-link" href="./form-elements.html" >
               <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
