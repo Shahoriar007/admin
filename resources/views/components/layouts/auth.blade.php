@@ -17,35 +17,19 @@
     <x-partials.styles></x-partials.styles>
 
   </head>
-  <body class="layout-fluid" onload=display_ct();>
-    <div class="page">
-      <x-layouts.sidebar>
-
-
-      </x-layouts.sidebar>
-
-      <x-layouts.header></x-layouts.header>
-
-      <div class="page-wrapper">
-
-        <x-layouts.pageHeader>
-            <x-slot:pretitle>
-            {{ $pretitle }}
-            </x-slot:pretitle>
-
-            <x-slot:pageTitle>
-                {{ $pageTitle }}
-            </x-slot:pageTitle>
-        </x-layouts.pageHeader>
-
+  <body class="border-top-wide border-primary d-flex flex-column">
+    <div class="page page-center">
+      <div class="container-tight py-4">
+        <div class="text-center mb-4">
+          <a href="." class="navbar-brand navbar-brand-autodark">
+            <h2>Inventiro .</h2>
+          </a>
+        </div>
+        
         {{ $slot }}
-
-        <x-layouts.footer></x-layouts.footer>
 
       </div>
     </div>
-
-    {{ $modals ?? "" }}
 
     <x-partials.scripts>
 

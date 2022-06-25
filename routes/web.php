@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.dashboard.index');
-});
+})->middleware('auth');
 
 Route::get('/tabler', function () {
     return view('tabler');
+});
+
+Route::get('/tfa', function () {
+    return view('pages.auth.enableTFA');
 });

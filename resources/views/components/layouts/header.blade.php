@@ -136,7 +136,14 @@
             <a href="#" class="dropdown-item">Feedback</a>
             <div class="dropdown-divider"></div>
             <a href="#" class="dropdown-item">Settings</a>
-            <a href="#" class="dropdown-item">Logout</a>
+            <a href="#" class="dropdown-item">
+              <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                
+                <button>Logout</button>
+              </form>
+            
+            </a>
           </div>
         </div>
       </div>
